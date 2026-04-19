@@ -14,6 +14,7 @@ class ItemController extends Controller
         $this->itemService = $itemService;
     }
 
+    // READ
     #[OA\Get(
         path: "/api/items",
         summary: "Menampilkan semua item",
@@ -47,6 +48,7 @@ class ItemController extends Controller
         ]);
     }
 
+    // READ - param id
     #[OA\Get(
         path: "/api/items/{id}",
         summary: "Menampilkan item berdasarkan ID",
@@ -99,6 +101,7 @@ class ItemController extends Controller
         ]);
     }
 
+    // CREATE
     #[OA\Post(
         path: "/api/items",
         summary: "Menambahkan item baru",
@@ -156,6 +159,7 @@ class ItemController extends Controller
         ], 201);
     }
 
+    // UPDATE dgn PUT
     #[OA\Put(
         path: "/api/items/{id}",
         summary: "Mengupdate seluruh data item",
@@ -224,6 +228,7 @@ class ItemController extends Controller
         ]);
     }
 
+    // UPDATE dgn PATCH
     #[OA\Patch(
         path: "/api/items/{id}",
         summary: "Mengupdate sebagian data item",
@@ -291,6 +296,7 @@ class ItemController extends Controller
         ]);
     }
 
+    // DELETE
     #[OA\Delete(
         path: "/api/items/{id}",
         summary: "Menghapus item",
