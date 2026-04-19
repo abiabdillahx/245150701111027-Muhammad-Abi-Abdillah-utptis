@@ -1,0 +1,15 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ItemController;
+
+Route::get('/health', function () {
+    return response()->json(['status' => 'ok']);
+});
+
+Route::get('/items', [ItemController::class, 'index']);
+Route::get('/items/{id}', [ItemController::class, 'show']);
+Route::post('/items', [ItemController::class, 'store']);
+Route::put('/items/{id}', [ItemController::class, 'update']);
+Route::patch('/items/{id}', [ItemController::class, 'partialUpdate']);
+Route::delete('/items/{id}', [ItemController::class, 'destroy']);
