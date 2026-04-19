@@ -51,12 +51,12 @@ Try it out di live demo: http://utp.zenc.cc/api/docs
 
 | Method | Endpoint | Deskripsi |
 |--------|----------|-----------|
-| GET | /api/items | Menampilkan semua item |
-| POST | /api/items | Menambahkan item baru |
-| GET | /api/items/{id} | Menampilkan item berdasarkan ID |
-| PUT | /api/items/{id} | Mengupdate seluruh data item |
-| PATCH | /api/items/{id} | Mengupdate sebagian data item |
-| DELETE | /api/items/{id} | Menghapus item |
+| GET | /api/items | Ambil seluruh daftar barang |
+| POST | /api/items | Tambah barang baru |
+| GET | /api/items/{id} | Cari barang berdasarkan ID |
+| PUT | /api/items/{id} | Perbarui semua field barang |
+| PATCH | /api/items/{id} | Perbarui sebagian field barang |
+| DELETE | /api/items/{id} | Hapus barang dari daftar |
 
 ## Contoh Request & Response
 
