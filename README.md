@@ -2,6 +2,7 @@
 > Muhammad Abi Abdillah
 > 245150701111027
 > TI - A
+**Live Demo**: http://utp.zenc.cc/api/docs
 
 **Goals:**
 Membangun ecommerce-like backend API sederhana menggunakan Laravel

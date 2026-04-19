@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nama": "Laptop",
+        "harga": 15000000
+    },
+    {
+        "id": 2,
+        "nama": "Mouse",
+        "harga": 150000
+    },
+    {
+        "id": 3,
+        "nama": "Keyboard",
+        "harga": 350000
+    },
+    {
+        "id": 4,
+        "nama": "Monitor",
+        "harga": 2500000
+    },
+    {
+        "id": 5,
+        "nama": "Printer",
+        "harga": 2000000
+    }
+]

@@ -1,5 +1,4 @@
-*
 !private/
 !public/
 !.gitignore
-!app/data/items.json
+!data/items.json
